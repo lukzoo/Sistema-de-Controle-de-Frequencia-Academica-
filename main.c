@@ -39,7 +39,7 @@ int main() {
             scanf("%d", &presencas);
         }
 
-        frequencia = ((float)presencas / total_aulas) * 100.0;
+        frequencia = (presencas / total_aulas) * 100.0;
 
         if (frequencia >= 75.0) {
             situacao = 1;
